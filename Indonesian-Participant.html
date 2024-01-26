@@ -275,7 +275,7 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
                 >Judul Proyek</label
               >
               <p>
-                Notes : Dimohon untuk mengisi data judul dengan BENAR,
+                Notes : Dimohon untuk mengisi data judul dengan BENAR menggunakan abjad dan tidak bole hanya simbol,
                 data yang masuk sudah tidak bisa ada perubahan!
               </p>
               <textarea
@@ -284,7 +284,7 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
                 name="PROJECT_TITLE"
                 class="form-control"
                 placeholder="Masukkan Judul Proyek Anda"
-                required
+                required oninvalid="this.setCustomValidity('Isi judul proyek menggunakan abjad')"
               ></textarea>
             </div>
 
