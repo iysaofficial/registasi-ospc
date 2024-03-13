@@ -205,7 +205,7 @@
         font-weight: bold;
         border-radius: 25px;
         padding: 5px;
-        background: linear-gradient(135deg, #9b59b6, #71b7e6);
+        background: linear-gradient(-135deg, #265188,  #e02c1e);
       }
       .btn {
         padding: 10px 10px;

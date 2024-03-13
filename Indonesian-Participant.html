@@ -269,6 +269,25 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
               />
             </div>
 
+            <div class="input-box">
+              <label
+                for="WHATSAPP_NUMBER_SUPERVISOR"
+                class="form-label"
+                >Nomor WhatsApp Guru/Pembimbing</label
+              >
+              <p>
+                Mohon tuliskan dengan kode telepon, contoh : +628177091xxxx
+              </p>
+              <input
+                type="number"
+                id="WHATSAPP_NUMBER_SUPERVISOR"
+                name="WHATSAPP_NUMBER_SUPERVISOR"
+                class="form-control"
+                placeholder="Masukan Nomor WhatsApp Guru/Pembimbing"
+                required
+              />
+            </div>  
+
 
             <div class="input-box">
               <label for="PROJECT_TITLE" class="form-label"
@@ -285,6 +304,25 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
                 class="form-control"
                 placeholder="Masukkan Judul Proyek Anda"
                 required oninvalid="this.setCustomValidity('Isi judul proyek menggunakan abjad')"
+              ></textarea>
+            </div>
+
+            <div class="input-box">
+              <label for="COMPLETE_ADDRESS" class="form-label"
+                >Alamat Lengkap</label
+              >
+              <p>
+                Mohon tuliskan alamat lengkap (Nama Jalan,
+                Nomor Rumah, RT&RW, Kecamatan, Kabupaten, Kota,
+                Provinsi, Kode Pos)
+              </p>
+              <textarea
+                type="text"
+                id="COMPLETE_ADDRESS"
+                name="COMPLETE_ADDRESS"
+                class="form-control"
+                placeholder="Masukan Alamat Lengkap Anda"
+                required
               ></textarea>
             </div>
 
@@ -344,6 +382,8 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
               <br><br>
               <div class="mt-5" id="form_alerts"></div>
             </div>
+
+            
 
 
           </div>
